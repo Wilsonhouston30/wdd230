@@ -1,0 +1,46 @@
+header {
+    text-align: center;
+    border-style: solid;
+    margin: 50px;
+}
+hr{
+    margin: 50px;
+}
+.card{
+    border-style: solid;
+    margin: 50px;
+    border-radius: 4px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.card_01{
+    border-style: solid;
+    margin: 50px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 25px;
+}
+h3{
+    background-color: lightskyblue;
+    margin-top: 0px;
+    color: white;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    margin-bottom: 0px;
+}
+nav {
+    background-color: lightskyblue;
+    
+}
+a {
+    color: gray;
+}
+.nav{
+    font-size: 25px;
+    padding: 1px;
+}
+footer{
+    text-align: center;
+}
