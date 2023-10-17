@@ -44,3 +44,7 @@ a {
 footer{
     text-align: center;
 }
+.link-container {
+        display: inline-block;
+        margin-right: 10px; /* Adjust as needed to add space between the links */
+}

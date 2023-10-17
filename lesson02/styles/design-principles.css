@@ -1,0 +1,77 @@
+/*~~~~~~~~~~~~~~~~~~~~~Desktop view base style BLUE HEADER~~~~~~~~~~~~~~~*/
+body {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+header {
+  background-color: lightblue;
+  border-radius: 100px;
+  margin: auto;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+}
+img {
+  width: 25rem;
+  height: 50rem;
+}
+
+footer {
+  background-color: lightblue;
+}
+
+.card {
+  max-width: 640px;
+  margin: 1rem auto;
+  border: 1px solid #6f6d6d;
+  padding: 1rem;
+  background-color: rgba(245, 245, 245, 0.651);
+  border-radius: 3rem;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~medium view min 850px ORANGE HEADER~~~~~~~~~~~~~~~*/
+@media screen and (max-width: 1114px) {
+  .container {
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+  }
+  header {
+    background-color: rgb(186, 171, 152);
+    margin: auto;
+  }
+  section:nth-child(3) {
+    grid-column: span 2;
+  }
+  img {
+    width: 15rem;
+    height: 25rem;
+  }
+}
+
+/*~~~~~~~~~~~~~~~~~~~~`small view min 375px GREEN HEADER~~~~~~~~~~~~~~~~~*/
+
+@media screen and (max-width: 590px) {
+  .container {
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+  }
+  header {
+    background-color: rgb(200, 255, 196);
+    margin: auto;
+  }
+  section:nth-child(1) {
+    grid-column: span 2;
+  }
+  section:nth-child(2) {
+    grid-column: span 2;
+  }
+  section:nth-child(3) {
+    grid-column: span 2;
+  }
+}
